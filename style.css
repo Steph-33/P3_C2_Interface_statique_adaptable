@@ -11,7 +11,7 @@ body{
     flex-direction: column;
 }
 
-h1, h2{
+h1, h2, h3{
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -56,6 +56,7 @@ header{
 
 #intro_content{
     width: 45%;
+    padding-top: 2%;
 }
 
 /*---------------Section #new---------------------------*/
@@ -74,7 +75,55 @@ header{
 
 /*---------------Section #blocks---------------------------*/
 #blocks{
-    height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: 8%;
+    margin-left: 8%;
+    color: white;
+}
+
+#pink{
+    background-color: #F4AFE7;
+}
+
+#purple{
+    background-color: #925EB8;
+}
+
+#clients{
+    background-image: url(Img/box-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#sign_up{
+    background-image: url(Img/box-bg-lg.jpg);
+    background-repeat: no-repeat;
+    background-size: 135%;
+}
+
+#green{
+    background-color: #71D9A7;
+}
+
+#pink, #purple, #clients, #sign_up, #green{
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.blocks_text{
+    font-size: small;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.blocks_link{
+    font-size: small;
+    color: white;
+    text-decoration: none;
 }
 
 /*---------------Section #details---------------------------*/
@@ -110,15 +159,34 @@ header{
 /*---------------Section #power---------------------------*/
 #power{
     border: solid green;    
-    height:110vh;
+    height:90vh;
     background: url(Img/full-image.jpg);
     background-repeat: no-repeat;
-    background-size: 410%;
+    background-size: 150vh 90vh;
     background-position: left;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 25vh;
+    padding-left: 8%;
 }
 
+#power_title{
+    width: 50%;
+}
 
+#power_text{
+    font-size: small;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 90%;
+}
 
+#power_link{
+    font-size: small;
+    color: white;
+    text-decoration: none;
+}
 
 /*---------------Section #onboard---------------------------*/
 #onboard{
