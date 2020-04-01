@@ -11,19 +11,165 @@ body{
     flex-direction: column;
 }
 
-h2{
+h1, h2{
     font-family: 'Open Sans', sans-serif;
 }
 
-/*---------------------------------SECTION DESKTOP-------------------------------------------*/
+/*---------------------------------PARTIE MOBILE-------------------------------------------*/
 /*---------------Header---------------------------*/
-#img_header{
-    width: 100%;
-    height: auto;
+header{   
+    height:110vh;
+    background: url(Img/mastehead.jpg);
+    background-repeat: no-repeat;
+    background-size: 400%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
 }
 
-/*---------------Container #new---------------------------*/
+#logo{
+    display: flex;
+    flex-direction: row;
+}
+
+#logo_pic{
+    width: 8vw;
+    height: 4.5vh;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+#logo_name{
+    font-size: 150%;
+    font-style: italic;
+    padding-left: 3%;
+    margin-top: 1.5%;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    margin-top: 55vh;
+    margin-left: 6%;
+}
+
+#intro_content{
+    width: 45%;
+}
+
+/*---------------Section #new---------------------------*/
 #new{
+    display: flex;
+    flex-direction: column;
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+#box_new_left, #box_new_right{
+    padding-top: 10%;
+}
+
+/*---------------Section #blocks---------------------------*/
+#blocks{
+    height: 100vh;
+}
+
+/*---------------Section #details---------------------------*/
+#details{
+    display: flex;
+    flex-direction: column;
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+#block_details{
+    display: flex;
+    flex-direction: column;
+    padding-top: 8%;
+}
+
+.box_details{
+    display: flex;
+    flex-direction: column;
+}
+
+.details_title{
+    font-weight: bold;
+    padding-top: 5%;
+}
+
+.details_content{
+    padding-top: 8%;
+}
+
+/*---------------Section #power---------------------------*/
+#power{
+    border: solid green;    
+    height:110vh;
+    background: url(Img/full-image.jpg);
+    background-repeat: no-repeat;
+    background-size: 410%;
+    background-position: left;
+}
+
+
+
+
+/*---------------Section #onboard---------------------------*/
+#onboard{
+    display: flex;
+    flex-direction: column;
+    padding-right: 8%;
+    padding-left: 8%;
+    padding-top: 15%;
+    padding-bottom: 25%;
+    background-color: #71D9A7;
+    color: white;
+}
+
+#block_onboard{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+}
+
+.box_onboard{
+    display: flex;
+    flex-direction: column;
+    padding-right: 2%;
+}
+
+.onboard_content{
+    padding-top: 8%;
+    padding-bottom: 5%;
+    text-align: justify;
+}
+
+/*---------------Section #legacy---------------------------*/
+
+
+
+
+/*----------------------Footer---------------------------*/
+
+
+
+/*---------------------------------^ FIN SECTION MOBILE ^-------------------------------------------*/
+
+/*---------------------------------SECTION DESKTOP-------------------------------------------*/
+/* ---------------Header---------------------------*/
+/* #img_header{
+    width: 100%;
+    height: auto;
+}*/
+
+/*---------------Container #new---------------------------*/
+/* #new{
     display: flex;
     flex-direction: column;
     margin-right: 20%;
@@ -48,15 +194,15 @@ h2{
     align-items: center;
     width: 50%;
     padding-left: 1%;
-}
+} */
 
 /*---------------Container #blocks---------------------------*/
-#blocks{
+/* #blocks{
     height: 50vh;
-}
+} */
 
 /*---------------Container #details---------------------------*/
-#details{
+/* #details{
     display: flex;
     flex-direction: column;
     margin-right: 20%;
@@ -82,13 +228,13 @@ h2{
 
 .details_content{
     padding-top: 10%;
-}
+} */
 
 /*---------------Container #power---------------------------*/
 
 
 /*---------------Container #onboard---------------------------*/
-#onboard{
+/*#onboard{
     display: flex;
     flex-direction: column;
     padding-right: 20%;
@@ -115,5 +261,4 @@ h2{
     padding-top: 10%;
     text-align: justify;
 }
-
-
+ */
