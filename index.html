@@ -22,8 +22,9 @@
         </div>
     </header>
     <section id="new">
-        <div class="titre">
+        <div id="title_new">
             <h2>Start something new</h2>
+            <img id="iphone_pic" src="Img/iphone.png" alt="Image Iphone">
         </div>
         <div id="box_new">
             <div id="box_new_left">
@@ -38,31 +39,46 @@
         <div id="pink">
             <h3>Design quality</h3>
             <p class="blocks_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati consequuntur corrupti.</p>
-            <a class="blocks_link" href="#"><strong>Find Out More</strong></a>
+            <div class="link_and_arrow">
+                <a class="blocks_link" href="#"><strong>Find Out More</strong></a>
+                <p class="arrow">&#8594;</p>
+            </div>
         </div>
         <div id="purple">
             <h3>Built to last</h3>
             <p class="blocks_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati consequuntur corrupti.</p>
-            <a class="blocks_link" href="#"><strong>Find Out More</strong></a>
+            <div class="link_and_arrow">
+                <a class="blocks_link" href="#"><strong>Find Out More</strong></a>
+                <p class="arrow">&#8594;</p>
+            </div>
         </div>
         <div id="clients">
             <h3>Our clients</h3>
             <p class="blocks_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati consequuntur corrupti.</p>
-            <a class="blocks_link" href="#"><strong>Get insights</strong></a>
+            <div class="link_and_arrow">
+                <a class="blocks_link" href="#"><strong>Get insights</strong></a>
+                <p class="arrow">&#8594;</p>
+            </div>
         </div>
         <div id="sign_up">
             <h3>Sign up & see why</h3>
             <p class="blocks_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati consequuntur corrupti.</p>
-            <a class="blocks_link" href="#"><strong>Get Started Now</strong></a>
+            <div class="link_and_arrow">
+                <a class="blocks_link" href="#"><strong>Get Started Now</strong></a>
+                <p class="arrow">&#8594;</p>
+            </div>
         </div>
         <div id="green">
             <h3>Perfect pictures</h3>
             <p class="blocks_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati consequuntur corrupti.</p>
-            <a class="blocks_link" href="#"><strong>Find Out More</strong></a>
+            <div class="link_and_arrow">
+                <a id="power_link" href="#"><strong>See the options</strong></a>
+                <p class="arrow">&#8594;</p>
+            </div>
         </div>
     </section>
     <section id="details">
-        <div class="titre">
+        <div>
             <h2>A look at the details</h2>
         </div>
         <div id="block_details">
@@ -95,10 +111,13 @@
     <section id="power">
         <h2 id="power_title">More power behind every pixel.</h2>
         <p id="power_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad est dolor illum molestias dolorem, ducimus, minima fugiat non dolores accusantium quod incidunt. </p>
-        <a id="power_link" href="#"><strong>See the options</strong></a>
+        <div class="link_and_arrow">
+            <a id="power_link" href="#"><strong>See the options</strong></a>
+            <p class="arrow">&#8594;</p>
+        </div>
     </section>
     <section id="onboard">
-        <div class="titre">
+        <div>
             <h2>Reasons to get onboard</h2>
         </div>
         <div id="block_onboard">
@@ -122,67 +141,69 @@
             </div>
         </div>
     </section>
-    <section id="legacy">
-        <div>
-            <button>LEGACY</button>
-            <h3>Go it solo</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam corporis similique ipsam cupiditate quod sequi eum esse nulla illo ipsum neque necessitatibus, consequatur quos, porro, temporibus molestiae totam optio dolor!</p>
-            <button>BUY NOW $9</button>
-            <i class="fab fa-apple"></i>
-            <i class="fab fa-windows"></i>
+    <section id="bottom">
+        <div id="solo">
+            <button id="button_legacy">LEGACY</button>
+            <h3 id="go_it_solo">Go it solo</h3>
+            <p id="p_solo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquid, qui voluptatum vero dolorum. Lorem ipsum dolor sit.</p>
+            <button class="button_buy">BUY NOW $9</button>
+            <div class="fab">
+                <img id="apple_icon" src="Img/apple_icon.svg" alt="Icône Apple">
+                <img id="windows_icon" src="Img/windows_icon.svg" alt="Icône Windows">
+            </div>
         </div>
-        <div>
-            <button>MOST POPULAR</button>
-            <h3>Team Plan</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam corporis similique ipsam cupiditate quod sequi eum esse nulla illo ipsum neque necessitatibus, consequatur quos, porro, temporibus molestiae totam optio dolor!</p>
-            <button>BUY NOW $18</button>
-            <i class="fab fa-apple"></i>
-            <i class="fab fa-windows"></i>
+        <div id="team">
+            <button id="button_popular">MOST POPULAR</button>
+            <h3 id="team_plan">Team Plan</h3>
+            <p id="p_team">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquid, qui voluptatum vero dolorum. Lorem ipsum dolor sit.</p>
+            <button class="button_buy">BUY NOW $18</button>
+            <div class="fab">
+                <img id="apple_icon" src="Img/apple_icon.svg" alt="Icône Apple">
+                <img id="windows_icon" src="Img/windows_icon.svg" alt="Icône Windows">
+            </div>
         </div>
     </section>
     <footer>
-        <div>
-            <p>Get in touch</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas quos temporibus nisi rem, est recusandae quo. Vel sit porro enim voluptate ab placeat harum error, fugit iusto! Qui, perspiciatis dolores!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium tempora delectus ullam provident expedita minima magnam ea quisquam at natus, recusandae corporis aliquid, voluptas, voluptatem eius. Velit eveniet tempora id.
-            </p>
+        <div id="footer_head">
+            <p id="footer_head_title">Get in touch</p>
+            <p id="footer_head_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo reprehenderit optio ipsa consectetur odit. Explicabo reprehenderit optio ipsa.</p>
         </div>
-        <div>
-            <p>Stay in touche</p>
-            <label for=""></label>
-
+        <div id="footer_middle">
+            <p id="footer_middle_title">Stay in touch</p>
+            <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10">
+            <label id="name_label" for="name">We don't send spam. Actually, who are we kinding, we'll spam the shit out of you'r inbox</label>
         </div>
-        <div>
+        <div id="footer_bottom">
             <div>
-                <p>Resours</p>
-                <div>
+                <p class="footer_bottom_title">Resources</p>
+                <div class="footer_links">
                     <a href="#">Tour</a>
                     <a href="#">Customers</a>
                     <a href="#">Pricing and</a>
                     <a href="#">Plans</a>
-                    <a href="#">Now Features</a>
+                    <a href="#">New Features</a>
                     <a href="#">Education</a>
                 </div>
             </div>
             <div>
-                <p>How To's</p>
-                <div>
+                <p class="footer_bottom_title">How To's</p>
+                <div class="footer_links">
                     <a href="#">Tour</a>
                     <a href="#">Customers</a>
                     <a href="#">Pricing and</a>
                     <a href="#">Plans</a>
-                    <a href="#">Now Features</a>
+                    <a href="#">New Features</a>
                     <a href="#">Education</a>
                 </div>
             </div>
             <div>
-                <p>Resours</p>
-                <div>
+                <p class="footer_bottom_title">Resources</p>
+                <div class="footer_links">
                     <a href="#">Tour</a>
                     <a href="#">Customers</a>
                     <a href="#">Pricing and</a>
                     <a href="#">Plans</a>
-                    <a href="#">Now Features</a>
+                    <a href="#">New Features</a>
                     <a href="#">Education</a>
                 </div>
             </div>
