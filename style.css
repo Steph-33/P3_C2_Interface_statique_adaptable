@@ -66,6 +66,18 @@ header{
 #intro_content{
     width: 45%;
     padding-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    line-height: 150%;
+}
+
+#iphone_pic{
+    display: none;
+    width: 70%;
+    height: auto;
+    position: relative;
+    bottom: 20%;
+    left: 25%;
 }
 
 /*---------------Section #new---------------------------*/
@@ -80,19 +92,14 @@ header{
 
 #box_new_left, #box_new_right{
     padding-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #afafaf;
+    font-size: small;
 }
 
 #title_new{
     display: flex;
     flex-direction: row;
-}
-
-#iphone_pic{
-    display: none;
-    width: 70%;
-    height: auto;
-    position: relative;
-    z-index: 1;
 }
 
 /*---------------Section #blocks---------------------------*/
@@ -140,12 +147,17 @@ header{
     font-size: small;
     padding-top: 5%;
     padding-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    line-height: 150%;
 }
 
 .blocks_link{
     font-size: small;
     color: white;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
 }
 
 /*---------------Section #details---------------------------*/
@@ -172,10 +184,16 @@ header{
 .details_title{
     font-weight: bold;
     padding-top: 5%;
+    color: #b3b3b3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
 }
 
 .details_content{
     padding-top: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #afafaf;
+    font-size: small;
 }
 
 /*---------------Section #power---------------------------*/
@@ -201,12 +219,17 @@ header{
     padding-top: 5%;
     padding-bottom: 5%;
     width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    line-height: 150%;
 }
 
 #power_link{
     font-size: small;
     color: white;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
 }
 
 /*---------------Section #onboard---------------------------*/
@@ -233,13 +256,21 @@ header{
     padding-right: 2%;
 }
 
+.onboard_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
 .onboard_content{
     padding-top: 8%;
     padding-bottom: 5%;
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    line-height: 150%;
 }
 
-/*---------------Section #legacy---------------------------*/
+/*---------------Section #bottom---------------------------*/
 #bottom{
     background-color: #f3f7fa;
     display: flex;
@@ -272,8 +303,11 @@ header{
 }
 
 #p_solo, #p_team{
-    font-size: smaller;
     padding-bottom: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #aebabd;
+    font-size: small;
+    line-height: 150%;
 }
 
 #team{
@@ -335,6 +369,12 @@ footer{
 
 #footer_head_title, #footer_middle_title{
     padding-bottom: 2vh;
+    font-size: smaller;
+}
+
+#footer_head_text{
+    font-size: smaller;
+    line-height: 150%;
 }
 
 #footer_middle{
@@ -342,7 +382,27 @@ footer{
     flex-direction: column;
 }
 
-#name_label{
+#email_form{
+    display: flex;
+    flex-direction: row;
+}
+
+#email_input{
+    width: 88%;
+    height: 5vh;
+    border-radius: 5% 0 0 5%;
+    box-sizing: border-box;
+}
+
+#email_button{
+    width: 10%;
+    height: auto;
+    font-size: 150%;
+    color: white;
+    background-color:  #83c89c;
+}
+
+#email_label{
     font-size: xx-small;
     color: #414d56;
     padding-top: 1%;
@@ -352,11 +412,13 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-left: -5vw;
 }
 
 .footer_bottom_title{
     padding-top: 4vh;
     padding-bottom: 2vh;
+    font-size: smaller;
 }
 
 .footer_links{
@@ -364,16 +426,32 @@ footer{
     flex-direction: column;
 }
 
-
 a{
     color: white;
     text-decoration: none;
     padding-bottom: 5%;
+    font-size: smaller;
+    line-height: 120%;
 }
 
-/*---------------------------------^ FIN SECTION MOBILE ^-------------------------------------------*/
+/*---------------------------------^ FIN SECTION MOBILE ^----------------------------------------*/
 
-/*---------------------------------SECTION DESKTOP-------------------------------------------*/
+/*------------------------------------SECTION TABLETTE-------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------^ FIN SECTION TABLETTE ^--------------------------------------*/
+
+/*-------------------------------------SECTION DESKTOP-------------------------------------------*/
 /* ---------------Header---------------------------*/
 /* #img_header{
     width: 100%;
