@@ -25,7 +25,7 @@ h1, h2, h3{
 }
 
 /*---------------------------------PARTIE MOBILE-------------------------------------------*/
-/*---------------Header---------------------------*/
+/*---------------Mobile Header---------------------------*/
 header{   
     height:90vh;
     background: url(Img/mastehead.jpg);
@@ -80,7 +80,7 @@ header{
     left: 25%;
 }
 
-/*---------------Section #new---------------------------*/
+/*---------------Mobile Section #new---------------------------*/
 #new{
     display: flex;
     flex-direction: column;
@@ -102,7 +102,7 @@ header{
     flex-direction: row;
 }
 
-/*---------------Section #blocks---------------------------*/
+/*---------------Mobile Section #blocks---------------------------*/
 #blocks{
     height: auto;
     display: flex;
@@ -160,7 +160,7 @@ header{
     font-size: small;
 }
 
-/*---------------Section #details---------------------------*/
+/*---------------Mobile Section #details---------------------------*/
 #details{
     display: flex;
     flex-direction: column;
@@ -196,7 +196,7 @@ header{
     font-size: small;
 }
 
-/*---------------Section #power---------------------------*/
+/*---------------Mobile Section #power---------------------------*/
 #power{
     height:90vh;
     background: url(Img/full-image.jpg);
@@ -220,7 +220,7 @@ header{
     padding-bottom: 5%;
     width: 90%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: smaller;
+    font-size: x-small;
     line-height: 150%;
 }
 
@@ -232,7 +232,7 @@ header{
     font-size: smaller;
 }
 
-/*---------------Section #onboard---------------------------*/
+/*---------------Mobile Section #onboard---------------------------*/
 #onboard{
     display: flex;
     flex-direction: column;
@@ -270,7 +270,7 @@ header{
     line-height: 150%;
 }
 
-/*---------------Section #bottom---------------------------*/
+/*---------------Mobile Section #bottom---------------------------*/
 #bottom{
     background-color: #f3f7fa;
     display: flex;
@@ -288,9 +288,9 @@ header{
 
 #button_legacy{
     border:none;
-	border-radius:10%;
+	border-radius:5px;
 	background:#dfdfdf;
-    font:bold;
+    font-weight: bolder;
     font-size: 3vw;
     width: 20%;
     height: 5vh;
@@ -318,9 +318,9 @@ header{
 
 #button_popular{
     border:none;
-	border-radius:10%;
+	border-radius:5px;
 	background:#ba8abe;
-    font:bold;
+    font-weight: bolder;
     font-size: 3vw;
     width: 30%;
     height: 5vh;
@@ -329,9 +329,9 @@ header{
 
 .button_buy{
     border:none;
-	border-radius:10%;
+	border-radius:5px;
 	background:#82c89c;
-    font:bold;
+    font-weight: bolder;
     font-size: 3vw;
     width: 30%;
     height: 5vh;
@@ -349,7 +349,7 @@ header{
     height: auto;
 }
 
-/*----------------------Footer---------------------------*/
+/*----------------------Mobile Footer---------------------------*/
 footer{
     background-color: #182432;
     display: flex;
@@ -435,120 +435,944 @@ a{
 }
 
 /*---------------------------------^ FIN SECTION MOBILE ^----------------------------------------*/
-
+/* ############################################################################################# */
+/* ############################################################################################# */
+/* ############################################################################################# */
+/* ############################################################################################# */
 /*------------------------------------SECTION TABLETTE-------------------------------------------*/
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px){
+
+/*---------------Tablette Règles Communes---------------------------*/
+h1{
+    font-size: 250%;
+}
+
+h2{
+    font-size: 200%;
+}
+
+h3{
+    font-size: 150%;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-/*---------------------------------^ FIN SECTION TABLETTE ^--------------------------------------*/
-
-/*-------------------------------------SECTION DESKTOP-------------------------------------------*/
-/* ---------------Header---------------------------*/
-/* #img_header{
-    width: 100%;
-    height: auto;
-}*/
-
-/*---------------Container #new---------------------------*/
-/* #new{
+/*---------------Tablette Header---------------------------*/
+header{   
+    height:58vh;
+    background: url(Img/mastehead.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
     display: flex;
     flex-direction: column;
-    margin-right: 20%;
-    margin-left: 20%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    color: white;
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+}
+
+#logo_pic{
+    width: 3vw;
+    height: 2.5vh;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+#logo_name{
+    font-size: 150%;
+    font-style: italic;
+    padding-left: 1vw;
+    margin-top: 1%;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25vh;
+    margin-left: 10%;
+}
+
+#intro_content{
+    width: 35%;
+    padding-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    line-height: 150%;
+}
+
+#iphone_pic{
+    display: none;
+    width: 70%;
+    height: auto;
+    position: relative;
+    bottom: 20%;
+    left: 25%;
+}
+
+/*---------------Tablette Section #new---------------------------*/
+#new{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#title_new{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    line-height: 150%;
 }
 
 #box_new{
     display: flex;
     flex-direction: row;
-    padding-top: 2%;
 }
 
 #box_new_left{
-    width: 50%;
-    padding-right: 1%;
+    width: 48%;
+    padding-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #afafaf;
+    font-size: medium;
 }
 
 #box_new_right{
+    width: 48%;
+    padding-left: 2%;
+    padding-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #afafaf;
+    font-size: medium;
+}
+
+
+/*---------------Tablette Section #blocks---------------------------*/
+#blocks{
+    height: auto;
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: white;
+}
+
+#pink{
+    background-color: #f4979f;
     width: 50%;
-    padding-left: 1%;
-} */
+}
 
-/*---------------Container #blocks---------------------------*/
-/* #blocks{
-    height: 50vh;
-} */
+#purple{
+    background-color: #5f5f7e;
+    width: 50%;
+}
 
-/*---------------Container #details---------------------------*/
-/* #details{
+#clients{
+    background-image: url(Img/box-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    width: 50%;
+}
+
+#sign_up{
+    background-image: url(Img/box-bg-lg.jpg);
+    background-repeat: no-repeat;
+    background-size: 210%;
+    width: 50%;
+}
+
+#green{
+    background-color: #83c99d;
+    width: 100%;
+}
+
+#pink, #purple, #clients, #sign_up, #green{
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.blocks_text{
+    font-size: small;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    line-height: 150%;
+}
+
+.blocks_link{
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+/*---------------Tablette Section #details---------------------------*/
+#details{
     display: flex;
     flex-direction: column;
-    margin-right: 20%;
-    margin-left: 20%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 15%;
 }
 
 #block_details{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     padding-top: 8%;
 }
 
 .box_details{
     display: flex;
     flex-direction: column;
+    width:40vw;
+    padding-right: 1.52vw;
 }
 
 .details_title{
     font-weight: bold;
+    padding-top: 5%;
+    color: #b3b3b3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
 }
 
 .details_content{
-    padding-top: 10%;
-} */
+    padding-top: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #afafaf;
+    font-size: small;
+}
 
-/*---------------Container #power---------------------------*/
-
-
-/*---------------Container #onboard---------------------------*/
-/*#onboard{
+/*---------------Tablette Section #power---------------------------*/
+#power{
+    height:90vh;
+    background: url(Img/full-image.jpg);
+    background-repeat: no-repeat;
+    background-size: 150vh 90vh;
+    background-position: left;
     display: flex;
     flex-direction: column;
-    padding-right: 20%;
-    padding-left: 20%;
-    padding-top: 5%;
+    color: white;
+    padding-top: 25vh;
+    padding-left: 10%;
+}
+
+#power_title{
+    font-size: 250%;
+    width: 30vw;
+}
+
+#power_text{
+    font-size: small;
+    padding-top: 2%;
     padding-bottom: 5%;
-    background-color: #71D9A7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    line-height: 150%;
+    width: 30.5vw;
+}
+
+#power_link{
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+/*---------------Tablette Section #onboard---------------------------*/
+#onboard{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 15%;
+    padding-bottom: 25%;
+    background-color: #83c99d;
     color: white;
 }
 
 #block_onboard{
     display: flex;
     flex-direction: row;
-    padding-top: 8%;
+    padding-top: 10%;
 }
 
 .box_onboard{
     display: flex;
     flex-direction: column;
-    padding-right: 2%;
+    padding-right: 5%;
+}
+
+.onboard_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
 }
 
 .onboard_content{
-    padding-top: 10%;
+    padding-top: 8%;
+    padding-bottom: 5%;
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    line-height: 150%;
 }
- */
+
+/*---------------Tablette Section #bottom---------------------------*/
+#bottom{
+    background-color: #f3f7fa;
+    display: flex;
+    flex-direction: row;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#solo{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-bottom: 7vh;
+}
+
+#button_legacy{
+    border:none;
+	border-radius:10px;
+	background:#dfdfdf;
+    font-weight: bolder;
+    font-size: 1.7vw;
+    width: 25%;
+    height: 4vh;
+    color:#fff;
+}
+
+#go_it_solo, #team_plan{
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+#p_solo, #p_team{
+    padding-bottom: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #aebabd;
+    font-size: small;
+    line-height: 150%;
+    padding-right: 5vh;
+}
+
+#team{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-bottom: 7vh;
+}
+
+#button_popular{
+    border:none;
+	border-radius:10px;
+	background:#ba8abe;
+    font-size: 1.7vw;
+    font-weight: bolder;
+    width: 40%;
+    height: 4vh;
+    color:#fff;
+}
+
+.button_buy{
+    border:none;
+	border-radius:10px;
+	background:#82c89c;
+    font-weight: bolder;
+    font-size: 1.7vw;
+    width: 40%;
+    height: 4vh;
+    color:#fff;
+}
+
+.fab{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1vh;
+}
+
+#apple_icon, #windows_icon{
+    width: 10%;
+    height: auto;
+}
+
+/*----------------------Tablette Footer---------------------------*/
+footer{
+    background-color: #182432;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+#footer_head{
+    padding-bottom: 3vh;
+}
+
+#footer_head_title, #footer_middle_title{
+    padding-bottom: 2vh;
+    font-size: smaller;
+}
+
+#footer_head_text{
+    font-size: smaller;
+    line-height: 150%;
+}
+
+#footer_middle{
+    display: flex;
+    flex-direction: column;
+}
+
+#email_form{
+    display: flex;
+    flex-direction: row;
+}
+
+#email_input{
+    width: 88%;
+    height: 5vh;
+    border-radius: 5% 0 0 5%;
+    box-sizing: border-box;
+}
+
+#email_button{
+    width: 10%;
+    height: auto;
+    font-size: 150%;
+    color: white;
+    background-color:  #83c89c;
+}
+
+#email_label{
+    font-size: xx-small;
+    color: #414d56;
+    padding-top: 1%;
+}
+
+#footer_bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: -10vw;
+}
+
+.footer_bottom_title{
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+    font-size: smaller;
+}
+
+.footer_links{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 5%;
+    font-size: smaller;
+    line-height: 120%;
+}
+
+}
+
+/*---------------------------------^ FIN SECTION TABLETTE ^--------------------------------------*/
+/* ############################################################################################# */
+/* ############################################################################################# */
+/* ############################################################################################# */
+/* ############################################################################################# */
+/*-------------------------------------SECTION DESKTOP-------------------------------------------*/
+@media screen and (min-device-width : 1025px){
+
+    /*---------------Desktop Règles Communes---------------------------*/
+    h1{
+        font-size: 250%;
+    }
+    
+    h2{
+        font-size: 200%;
+    }
+    
+    h3{
+        font-size: 150%;
+    }
+    
+    
+    /*---------------Desktop Header---------------------------*/
+    header{   
+        height:105vh;
+        background: url(Img/mastehead.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    
+    #logo{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #logo_pic{
+        width: 2vw;
+        height: auto;
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+    
+    #logo_name{
+        font-size: 150%;
+        font-style: italic;
+        padding-left: 0.5vw;
+        margin-top: 1%;
+    }
+    
+    #intro{
+        display: flex;
+        flex-direction: column;
+        margin-top: 45vh;
+        margin-left: 20%;
+    }
+
+    #intro_title{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #intro_title_2{
+        padding-left: 2vh;
+    }
+    
+    #intro_content{
+        width: 35%;
+        padding-top: 1%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        line-height: 150%;
+    }
+    
+    #iphone_pic{
+        display: flex;
+        width: 37%;
+        height: auto;
+        position: relative;
+        bottom: 35%;
+        left: 50%;
+    }
+    
+    /*---------------Desktop Section #new---------------------------*/
+    #new{
+        display: flex;
+        flex-direction: column;
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+    #title_new{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        line-height: 150%;
+    }
+    
+    #box_new{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #box_new_left{
+        width: 48%;
+        padding-top: 5%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #afafaf;
+        font-size: medium;
+    }
+    
+    #box_new_right{
+        display: flex;
+        align-items: center;
+        width: 48%;
+        padding-left: 2%;
+        padding-top: 10%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #afafaf;
+        font-size: medium;
+    }
+    
+    
+    /*---------------Desktop Section #blocks---------------------------*/
+    #blocks{
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-right: 20%;
+        margin-left: 20%;
+        color: white;
+    }
+    
+    #pink{
+        background-color: #f4979f;
+        width: 33%;
+    }
+    
+    #purple{
+        background-color: #5f5f7e;
+        width: 33%;
+    }
+    
+    #clients{
+        background-image: url(Img/box-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 105%;
+        width: 33%;
+    }
+    
+    #sign_up{
+        background-image: url(Img/box-bg-lg.jpg);
+        background-repeat: no-repeat;
+        background-size: 210%;
+        width: 66%;
+    }
+    
+    #green{
+        background-color: #83c99d;
+        width: 33%;
+    }
+    
+    #pink, #purple, #clients, #sign_up, #green{
+        padding-top: 6%;
+        padding-bottom: 6%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    
+    .blocks_text{
+        font-size: small;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        line-height: 150%;
+    }
+    
+    .blocks_link{
+        font-size: small;
+        color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+    }
+    
+    /*---------------Desktop Section #details---------------------------*/
+    #details{
+        display: flex;
+        flex-direction: column;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+    
+    #block_details{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 8%;
+    }
+    
+    .box_details{
+        display: flex;
+        flex-direction: column;
+        width:40vw;
+        padding-right: 1.52vw;
+    }
+    
+    .details_title{
+        font-weight: bold;
+        padding-top: 5%;
+        color: #b3b3b3;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+    }
+    
+    .details_content{
+        padding-top: 8%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #afafaf;
+        font-size: small;
+    }
+    
+    /*---------------Desktop Section #power---------------------------*/
+    #power{
+        height:90vh;
+        background: url(Img/full-image.jpg);
+        background-repeat: no-repeat;
+        background-size: 150vh 90vh;
+        background-position: left;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding-top: 25vh;
+        padding-left: 10%;
+    }
+    
+    #power_title{
+        font-size: 250%;
+        width: 30vw;
+    }
+    
+    #power_text{
+        font-size: small;
+        padding-top: 2%;
+        padding-bottom: 5%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: smaller;
+        line-height: 150%;
+        width: 30.5vw;
+    }
+    
+    #power_link{
+        font-size: small;
+        color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: smaller;
+    }
+    
+    /*---------------Desktop Section #onboard---------------------------*/
+    #onboard{
+        display: flex;
+        flex-direction: column;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-top: 15%;
+        padding-bottom: 25%;
+        background-color: #83c99d;
+        color: white;
+    }
+    
+    #block_onboard{
+        display: flex;
+        flex-direction: row;
+        padding-top: 10%;
+    }
+    
+    .box_onboard{
+        display: flex;
+        flex-direction: column;
+        padding-right: 5%;
+    }
+    
+    .onboard_title{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: smaller;
+    }
+    
+    .onboard_content{
+        padding-top: 8%;
+        padding-bottom: 5%;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        line-height: 150%;
+    }
+    
+    /*---------------Desktop Section #bottom---------------------------*/
+    #bottom{
+        background-color: #f3f7fa;
+        display: flex;
+        flex-direction: row;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    
+    #solo{
+        display: flex;
+        flex-direction: column;
+        padding-top: 10%;
+        padding-bottom: 7vh;
+    }
+    
+    #button_legacy{
+        border:none;
+        border-radius:10px;
+        background:#dfdfdf;
+        font-weight: bolder;
+        font-size: 1.7vw;
+        width: 25%;
+        height: 4vh;
+        color:#fff;
+    }
+    
+    #go_it_solo, #team_plan{
+        padding-top: 5%;
+        padding-bottom: 4%;
+    }
+    
+    #p_solo, #p_team{
+        padding-bottom: 2vh;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #aebabd;
+        font-size: small;
+        line-height: 150%;
+        padding-right: 5vh;
+    }
+    
+    #team{
+        display: flex;
+        flex-direction: column;
+        padding-top: 10%;
+        padding-bottom: 7vh;
+    }
+    
+    #button_popular{
+        border:none;
+        border-radius:10px;
+        background:#ba8abe;
+        font-size: 1.7vw;
+        font-weight: bolder;
+        width: 40%;
+        height: 4vh;
+        color:#fff;
+    }
+    
+    .button_buy{
+        border:none;
+        border-radius:10px;
+        background:#82c89c;
+        font-weight: bolder;
+        font-size: 1.7vw;
+        width: 40%;
+        height: 4vh;
+        color:#fff;
+    }
+    
+    .fab{
+        display: flex;
+        flex-direction: row;
+        padding-top: 1vh;
+    }
+    
+    #apple_icon, #windows_icon{
+        width: 10%;
+        height: auto;
+    }
+    
+    /*----------------------Desktop Footer---------------------------*/
+    footer{
+        background-color: #182432;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        padding-right: 10%;
+        padding-left: 10%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+    }
+    
+    #footer_head{
+        padding-bottom: 3vh;
+    }
+    
+    #footer_head_title, #footer_middle_title{
+        padding-bottom: 2vh;
+        font-size: smaller;
+    }
+    
+    #footer_head_text{
+        font-size: smaller;
+        line-height: 150%;
+    }
+    
+    #footer_middle{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #email_form{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #email_input{
+        width: 88%;
+        height: 5vh;
+        border-radius: 5% 0 0 5%;
+        box-sizing: border-box;
+    }
+    
+    #email_button{
+        width: 10%;
+        height: auto;
+        font-size: 150%;
+        color: white;
+        background-color:  #83c89c;
+    }
+    
+    #email_label{
+        font-size: xx-small;
+        color: #414d56;
+        padding-top: 1%;
+    }
+    
+    #footer_bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: -10vw;
+    }
+    
+    .footer_bottom_title{
+        padding-top: 4vh;
+        padding-bottom: 2vh;
+        font-size: smaller;
+    }
+    
+    .footer_links{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+        padding-bottom: 5%;
+        font-size: smaller;
+        line-height: 120%;
+    }
+    
+}
+/*---------------------------------^ FIN SECTION DESKTOP ^--------------------------------------*/
+/* ############################################################################################# */
+/* ############################################################################################# */
+/* ############################################################################################# */
+/* ############################################################################################# */
+/*-----------------------------------------------------------------------------------------------*/
