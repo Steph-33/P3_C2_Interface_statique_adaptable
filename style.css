@@ -43,17 +43,18 @@ header{
 }
 
 #logo_pic{
-    width: 8vw;
+    width: 5vw;
     height: auto;
-    margin-left: 3%;
-    margin-top: 1%;
+    margin-left: 3vw;
+    margin-top: 1.5vh;
 }
 
 #logo_name{
-    font-size: 150%;
+    font-size: 110%;
     font-style: italic;
-    padding-left: 3vw;
-    margin-top: 1.5%;
+    padding-left: 1vw;
+    margin-top: 1vh;
+    padding-top: 0.2vh;
 }
 
 #intro{
@@ -390,7 +391,7 @@ footer{
 #email_input{
     width: 88%;
     height: 5vh;
-    border-radius: 5% 0 0 5%;
+    border-radius: 5px 0 0 5px;
     box-sizing: border-box;
 }
 
@@ -475,16 +476,16 @@ header{
 
 #logo_pic{
     width: 3vw;
-    height: 2.5vh;
-    margin-left: 2%;
-    margin-top: 1%;
+    height: auto;
+    margin-left: 2vw;
+    margin-top: 0.8vh;
 }
 
 #logo_name{
-    font-size: 150%;
+    font-size: 130%;
     font-style: italic;
-    padding-left: 1vw;
-    margin-top: 1%;
+    padding-left: 0.5vw;
+    margin-top: 0.8vh;
 }
 
 #intro{
@@ -851,7 +852,7 @@ footer{
 #email_input{
     width: 88%;
     height: 5vh;
-    border-radius: 5% 0 0 5%;
+    border-radius: 7px 0 0 7px;
     box-sizing: border-box;
 }
 
@@ -905,12 +906,6 @@ a{
 /*-------------------------------------SECTION DESKTOP-------------------------------------------*/
 @media screen and (min-device-width : 1025px){
 
-    *{
-        margin:0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
     /*---------------Desktop Règles Communes---------------------------*/
     h1{
         font-size: 250%;
@@ -943,17 +938,16 @@ a{
     }
     
     #logo_pic{
-        width: 2vw;
+        width: 1.5vw;
         height: auto;
-        margin-left: 1vw;
-        padding-top: 1vh;
+        margin-left: 0.7vw;
+        padding-left: 0.1vw;
     }
     
     #logo_name{
-        font-size: 150%;
+        font-size: 120%;
         font-style: italic;
-        padding-left: 0.5vw;
-        margin-top: 1%;
+        padding-left: 0.3vw;
     }
     
     #intro{
