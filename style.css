@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/*---------------------------------REGLES GENERALES-------------------------------------------*/
+/*---------------------------------RÈGLES GENERALES-------------------------------------------*/
 
 body{
     display: flex;
@@ -24,13 +24,13 @@ h1, h2, h3{
     padding-left: 3%;
 }
 
-/*---------------------------------PARTIE MOBILE-------------------------------------------*/
-/*---------------Mobile Header---------------------------*/
+/*---------------------------------SECTION MOBILE-------------------------------------------*/
+
+/*---------------Mobile Section 1 #Header---------------------------*/
 header{   
-    height:90vh;
     background: url(Img/mastehead.jpg);
     background-repeat: no-repeat;
-    background-size: 400%;
+    background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
@@ -43,24 +43,25 @@ header{
 }
 
 #logo_pic{
-    width: 5vw;
+    width: 5%;
     height: auto;
-    margin-left: 3vw;
-    margin-top: 1.5vh;
+    margin-left: 3%;
+    padding-top:2%;
+    padding-bottom: 2%;
 }
 
 #logo_name{
     font-size: 110%;
     font-style: italic;
-    padding-left: 1vw;
-    margin-top: 1vh;
-    padding-top: 0.2vh;
+    padding-left: 1%;
+    padding-top: 1%;
 }
 
 #intro{
     display: flex;
     flex-direction: column;
-    margin-top: 45vh;
+    padding-top: 69%;
+    padding-bottom: 20%;
     margin-left: 8%;
 }
 
@@ -81,7 +82,7 @@ header{
     left: 25%;
 }
 
-/*---------------Mobile Section #new---------------------------*/
+/*---------------Mobile Section 2 #Start Someting New---------------------------*/
 #new{
     display: flex;
     flex-direction: column;
@@ -103,7 +104,7 @@ header{
     flex-direction: row;
 }
 
-/*---------------Mobile Section #blocks---------------------------*/
+/*---------------Mobile Section 3 #Blocks de couleur---------------------------*/
 #blocks{
     height: auto;
     display: flex;
@@ -124,13 +125,13 @@ header{
 #clients{
     background-image: url(Img/box-bg.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 #sign_up{
     background-image: url(Img/box-bg-lg.jpg);
     background-repeat: no-repeat;
-    background-size: 148%;
+    background-size: cover;
 }
 
 #green{
@@ -158,10 +159,11 @@ header{
     color: white;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
+    font-size: x-small;
+    padding-top: 1.7%;
 }
 
-/*---------------Mobile Section #details---------------------------*/
+/*---------------Mobile Section 4 #A loot at the details---------------------------*/
 #details{
     display: flex;
     flex-direction: column;
@@ -187,39 +189,39 @@ header{
     padding-top: 5%;
     color: #b3b3b3;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
+    font-size: x-small;
 }
 
 .details_content{
     padding-top: 8%;
     font-family: Arial, Helvetica, sans-serif;
     color: #afafaf;
-    font-size: small;
+    font-size: x-small;
 }
 
-/*---------------Mobile Section #power---------------------------*/
+/*---------------Mobile Section 5 #More power behind every pixel---------------------------*/
 #power{
     height:90vh;
     background: url(Img/full-image.jpg);
     background-repeat: no-repeat;
-    background-size: 150vh 90vh;
-    background-position: left;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     color: white;
-    padding-top: 25vh;
+    padding-top: 37%;
     padding-left: 8%;
 }
 
 #power_title{
-    width: 50%;
+    font-size: 200%;
+    width : 75%;
 }
 
 #power_text{
     font-size: small;
     padding-top: 5%;
     padding-bottom: 5%;
-    width: 90%;
+    width: 85%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-small;
     line-height: 150%;
@@ -230,10 +232,11 @@ header{
     color: white;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: smaller;
+    font-size: x-small;
+    padding-top: 1.5%;
 }
 
-/*---------------Mobile Section #onboard---------------------------*/
+/*---------------Mobile Section 6 #Reasons to get onboard---------------------------*/
 #onboard{
     display: flex;
     flex-direction: column;
@@ -259,7 +262,7 @@ header{
 
 .onboard_title{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: smaller;
+    font-size: x-small;
 }
 
 .onboard_content{
@@ -267,24 +270,24 @@ header{
     padding-bottom: 5%;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
+    font-size: x-small;
     line-height: 150%;
 }
 
-/*---------------Mobile Section #bottom---------------------------*/
+/*---------------Mobile Section 7 #Bottom---------------------------*/
 #bottom{
     background-color: #f3f7fa;
     display: flex;
     flex-direction: column;
-    padding-right: 8%;
+    padding-right: 10%;
     padding-left: 8%;
 }
 
 #solo{
     display: flex;
     flex-direction: column;
-    padding-top: 15vh;
-    padding-bottom: 7vh;
+    padding-top: 25%;
+    padding-bottom: 7%;
 }
 
 #button_legacy{
@@ -292,9 +295,10 @@ header{
 	border-radius:5px;
 	background:#dfdfdf;
     font-weight: bolder;
-    font-size: 3vw;
+    font-size: xx-small;
     width: 20%;
-    height: 5vh;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
     color:#fff;
 }
 
@@ -304,17 +308,18 @@ header{
 }
 
 #p_solo, #p_team{
-    padding-bottom: 2vh;
+    padding-bottom: 5%;
     font-family: Arial, Helvetica, sans-serif;
     color: #aebabd;
-    font-size: small;
+    font-size: x-small;
     line-height: 150%;
 }
 
 #team{
     display: flex;
     flex-direction: column;
-    padding-bottom: 15vh;
+    padding-top: 15%;
+    padding-bottom: 35%;
 }
 
 #button_popular{
@@ -322,9 +327,10 @@ header{
 	border-radius:5px;
 	background:#ba8abe;
     font-weight: bolder;
-    font-size: 3vw;
+    font-size: xx-small;
     width: 30%;
-    height: 5vh;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
     color:#fff;
 }
 
@@ -333,16 +339,17 @@ header{
 	border-radius:5px;
 	background:#82c89c;
     font-weight: bolder;
-    font-size: 3vw;
+    font-size: x-small;
     width: 30%;
-    height: 5vh;
+    padding-top: 3%;
+    padding-bottom: 3%;
     color:#fff;
 }
 
 .fab{
     display: flex;
     flex-direction: row;
-    padding-top: 1vh;
+    padding-top: 6%;
 }
 
 #apple_icon, #windows_icon{
@@ -350,14 +357,14 @@ header{
     height: auto;
 }
 
-/*----------------------Mobile Footer---------------------------*/
+/*----------------------Mobile Section 8 #Footer---------------------------*/
 footer{
     background-color: #182432;
     display: flex;
     flex-direction: column;
     color: white;
-    padding-top: 15vh;
-    padding-bottom: 15vh;
+    padding-top: 25%;
+    padding-bottom: 45%;
     padding-right: 8%;
     padding-left: 8%;
     font-family: Arial, Helvetica, sans-serif;
@@ -441,11 +448,11 @@ a{
 /* ############################################################################################# */
 /* ############################################################################################# */
 /*------------------------------------SECTION TABLETTE-------------------------------------------*/
-@media screen and (min-device-width : 768px) and (max-device-width : 1024px){
+@media screen and (min-width : 768px) and (max-width : 1024px){
 
 /*---------------Tablette Règles Communes---------------------------*/
 h1{
-    font-size: 250%;
+    font-size: 300%;
 }
 
 h2{
@@ -456,13 +463,11 @@ h3{
     font-size: 150%;
 }
 
-
-/*---------------Tablette Header---------------------------*/
+/*---------------Tablette Section 1 #Header---------------------------*/
 header{   
-    height:58vh;
     background: url(Img/mastehead.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
@@ -475,24 +480,25 @@ header{
 }
 
 #logo_pic{
-    width: 3vw;
+    width: 3%;
     height: auto;
-    margin-left: 2vw;
-    margin-top: 0.8vh;
+    margin-left: 2%;
+    padding-top: 1%;
 }
 
 #logo_name{
     font-size: 130%;
     font-style: italic;
-    padding-left: 0.5vw;
-    margin-top: 0.8vh;
+    padding-left: 0.5%;
+    padding-top: 1%;
 }
 
 #intro{
     display: flex;
     flex-direction: column;
-    margin-top: 25vh;
-    margin-left: 10%;
+    padding-top: 35%;
+    padding-bottom: 25%;
+    margin-left: 12%;
 }
 
 #intro_content{
@@ -512,12 +518,12 @@ header{
     left: 25%;
 }
 
-/*---------------Tablette Section #new---------------------------*/
+/*---------------Tablette Section 2 #Start Someting New---------------------------*/
 #new{
     display: flex;
     flex-direction: column;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 12%;
+    margin-left: 12%;
     margin-top: 10%;
     margin-bottom: 10%;
 }
@@ -544,15 +550,14 @@ header{
 
 #box_new_right{
     width: 48%;
-    padding-left: 2%;
-    padding-top: 10%;
+    padding-left: 5%;
+    padding-top: 20%;
     font-family: Arial, Helvetica, sans-serif;
     color: #afafaf;
     font-size: medium;
 }
 
-
-/*---------------Tablette Section #blocks---------------------------*/
+/*---------------Tablette Section 3 #Blocks de couleur---------------------------*/
 #blocks{
     height: auto;
     display: flex;
@@ -576,14 +581,14 @@ header{
 #clients{
     background-image: url(Img/box-bg.jpg);
     background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: cover;
     width: 50%;
 }
 
 #sign_up{
     background-image: url(Img/box-bg-lg.jpg);
     background-repeat: no-repeat;
-    background-size: 210%;
+    background-size: cover;
     width: 50%;
 }
 
@@ -592,16 +597,23 @@ header{
     width: 100%;
 }
 
-#pink, #purple, #clients, #sign_up, #green{
+#pink, #purple, #clients, #sign_up{
     padding-top: 6%;
     padding-bottom: 6%;
     padding-left: 4%;
     padding-right: 4%;
 }
 
+#green{
+    padding-top: 6%;
+    padding-bottom: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
 .blocks_text{
     font-size: small;
-    padding-top: 5%;
+    padding-top: 4%;
     padding-bottom: 5%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
@@ -614,14 +626,15 @@ header{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
+    padding-top: 0.5%;
 }
 
-/*---------------Tablette Section #details---------------------------*/
+/*---------------Tablette Section 4 #A loot at the details---------------------------*/
 #details{
     display: flex;
     flex-direction: column;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 12%;
+    margin-left: 12%;
     margin-top: 10%;
     margin-bottom: 15%;
 }
@@ -636,8 +649,8 @@ header{
 .box_details{
     display: flex;
     flex-direction: column;
-    width:40vw;
-    padding-right: 1.52vw;
+    width:50%;
+    padding-right: 3%;
 }
 
 .details_title{
@@ -655,23 +668,21 @@ header{
     font-size: small;
 }
 
-/*---------------Tablette Section #power---------------------------*/
+/*---------------Tablette Section 5 #More power behind every pixel---------------------------*/
 #power{
-    height:90vh;
     background: url(Img/full-image.jpg);
     background-repeat: no-repeat;
-    background-size: 150vh 90vh;
-    background-position: left;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     color: white;
-    padding-top: 25vh;
-    padding-left: 10%;
+    padding-top: 35%;
+    padding-left: 12%;
 }
 
 #power_title{
-    font-size: 250%;
-    width: 30vw;
+    font-size: 300%;
+    width: 40%;
 }
 
 #power_text{
@@ -681,7 +692,7 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     font-size: smaller;
     line-height: 150%;
-    width: 30.5vw;
+    width: 44%;
 }
 
 #power_link{
@@ -690,16 +701,17 @@ header{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: smaller;
+    padding-top: 0.5%;
 }
 
-/*---------------Tablette Section #onboard---------------------------*/
+/*---------------Tablette Section 6 #Reasons to get onboard---------------------------*/
 #onboard{
     display: flex;
     flex-direction: column;
-    padding-right: 10%;
-    padding-left: 10%;
-    padding-top: 15%;
-    padding-bottom: 25%;
+    padding-right: 12%;
+    padding-left: 12%;
+    padding-top: 12%;
+    padding-bottom: 20%;
     background-color: #83c99d;
     color: white;
 }
@@ -707,13 +719,13 @@ header{
 #block_onboard{
     display: flex;
     flex-direction: row;
-    padding-top: 10%;
+    padding-top: 7%;
 }
 
 .box_onboard{
     display: flex;
     flex-direction: column;
-    padding-right: 5%;
+    padding-right: 6%;
 }
 
 .onboard_title{
@@ -722,38 +734,38 @@ header{
 }
 
 .onboard_content{
-    padding-top: 8%;
-    padding-bottom: 5%;
+    padding-top: 18%;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     line-height: 150%;
 }
 
-/*---------------Tablette Section #bottom---------------------------*/
+/*---------------Tablette Section 7 #Bottom---------------------------*/
 #bottom{
     background-color: #f3f7fa;
     display: flex;
     flex-direction: row;
     padding-right: 10%;
-    padding-left: 10%;
+    padding-left: 15%;
 }
 
-#solo{
+#solo, #team{
     display: flex;
     flex-direction: column;
     padding-top: 10%;
-    padding-bottom: 7vh;
+    padding-bottom: 25%;
 }
 
 #button_legacy{
     border:none;
-	border-radius:10px;
+	border-radius:5px;
 	background:#dfdfdf;
     font-weight: bolder;
-    font-size: 1.7vw;
-    width: 25%;
-    height: 4vh;
+    font-size: x-small;
+    width: 23%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     color:#fff;
 }
 
@@ -771,39 +783,34 @@ header{
     padding-right: 5vh;
 }
 
-#team{
-    display: flex;
-    flex-direction: column;
-    padding-top: 10%;
-    padding-bottom: 7vh;
-}
-
 #button_popular{
     border:none;
-	border-radius:10px;
+	border-radius:5px;
 	background:#ba8abe;
     font-size: 1.7vw;
-    font-weight: bolder;
+    font-weight: x-small;
     width: 40%;
-    height: 4vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
     color:#fff;
 }
 
 .button_buy{
     border:none;
-	border-radius:10px;
+	border-radius:5px;
 	background:#82c89c;
     font-weight: bolder;
-    font-size: 1.7vw;
+    font-size: small;
     width: 40%;
-    height: 4vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
     color:#fff;
 }
 
 .fab{
     display: flex;
     flex-direction: row;
-    padding-top: 1vh;
+    padding-top: 5%;
 }
 
 #apple_icon, #windows_icon{
@@ -811,26 +818,22 @@ header{
     height: auto;
 }
 
-/*----------------------Tablette Footer---------------------------*/
+/*----------------------Tablette Section 8 #Footer---------------------------*/
 footer{
     background-color: #182432;
     display: flex;
     flex-direction: column;
     color: white;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 15%;
+    padding-bottom: 20%;
     padding-right: 10%;
-    padding-left: 10%;
+    padding-left: 12%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
 }
 
-#footer_head{
-    padding-bottom: 3vh;
-}
-
 #footer_head_title, #footer_middle_title{
-    padding-bottom: 2vh;
+    padding-bottom: 2%;
     font-size: smaller;
 }
 
@@ -851,7 +854,7 @@ footer{
 
 #email_input{
     width: 88%;
-    height: 5vh;
+    font-size: 150%;
     border-radius: 7px 0 0 7px;
     box-sizing: border-box;
 }
@@ -904,125 +907,124 @@ a{
 /* ############################################################################################# */
 /* ############################################################################################# */
 /*-------------------------------------SECTION DESKTOP-------------------------------------------*/
-@media screen and (min-device-width : 1025px){
+@media screen and (min-width : 1025px){
 
-    /*---------------Desktop Règles Communes---------------------------*/
-    h1{
-        font-size: 250%;
-    }
+/*---------------Desktop Règles Communes---------------------------*/
+h1{
+    font-size: 250%;
+}
     
-    h2{
-        font-size: 150%;
-    }
+h2{
+    font-size: 150%;
+}
     
-    h3{
-        font-size: 150%;
-    }
-    
-    
-    /*---------------Desktop Header---------------------------*/
-    header{   
-        height:100vh;
-        background: url(Img/mastehead.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: center;
-        display: flex;
-        flex-direction: column;
-        color: white;
-    }
-    
-    #logo{
-        display: flex;
-        flex-direction: row;
-    }
-    
-    #logo_pic{
-        width: 1.5vw;
-        height: auto;
-        margin-left: 0.7vw;
-        padding-left: 0.1vw;
-    }
-    
-    #logo_name{
-        font-size: 120%;
-        font-style: italic;
-        padding-left: 0.3vw;
-    }
-    
-    #intro{
-        display: flex;
-        flex-direction: column;
-        margin-top: 41vh;
-        margin-left: 20%;
-    }
+h3{
+    font-size: 150%;
+}
 
-    #intro_title{
-        display: flex;
-        flex-direction: row;
-    }
+/*---------------Desktop Section 1 #Header---------------------------*/
+header{   
+    background: url(Img/mastehead.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
 
-    #intro_title_2{
-        padding-left: 2vh;
-    }
+#logo{
+    display: flex;
+    flex-direction: row;
+}
     
-    #intro_content{
-        width: 25vw;
-        padding-top: 1vh;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: x-small;
-        line-height: 150%;
-    }
+#logo_pic{
+    width: 1.5%;
+    height: auto;
+    margin-left: 1%;
+    padding-top: 1%;
+}
     
-    #iphone_pic{
-        display: flex;
-        width: 37vw;
-        height: auto;
-        position: relative;
-        bottom: 35vh;
-        left: 50vw;
-    }
+#logo_name{
+    font-size: 120%;
+    font-style: italic;
+    padding-left: 0.2%;
+    padding-top: 0.9%;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    padding-top: 18%;
+    margin-left: 20%;
+}
+
+#intro_title{
+    display: flex;
+    flex-direction: row;
+}
+
+#intro_title_2{
+    padding-left: 1%;
+}
     
-    /*---------------Desktop Section #new---------------------------*/
-    #new{
-        display: flex;
-        flex-direction: column;
-        margin-right: 20%;
-        margin-left: 20%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
+#intro_content{
+    width: 35%;
+    padding-top: 0.7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    line-height: 150%;
+}
     
-    #title_new{
-        display: flex;
-        flex-direction: row;
-        width: 50%;
-        line-height: 150%;
-    }
+#iphone_pic{
+    display: flex;
+    width: 38%;
+    height: auto;
+    position: absolute;
+    top: 26%;
+    left: 51%;
+}
+
+/*---------------Desktop Section 2 #Start Someting New---------------------------*/
+#new{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
     
-    #box_new{
-        display: flex;
-        flex-direction: row;
-    }
+#title_new{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    line-height: 150%;
+}
     
-    #box_new_left{
-        width: 48%;
-        padding-top: 3vh;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #afafaf;
-        font-size: small;
-    }
+#box_new{
+    display: flex;
+    flex-direction: row;
+}
     
-    #box_new_right{
-        display: flex;
-        align-items: center;
-        width: 48%;
-        padding-left: 2%;
-        padding-top: 5vh;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #afafaf;
-        font-size: small;
-    }
+#box_new_left{
+    width: 48%;
+    padding-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #afafaf;
+    font-size: small;
+}
+    
+#box_new_right{
+    display: flex;
+    align-items: center;
+    width: 48%;
+    padding-left: 2%;
+    padding-top: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #afafaf;
+    font-size: small;
+}
     
     
     /*---------------Desktop Section #blocks---------------------------*/
@@ -1049,14 +1051,14 @@ a{
     #clients{
         background-image: url(Img/box-bg.jpg);
         background-repeat: no-repeat;
-        background-size: 105%;
+        background-size: cover;
         width: 33%;
     }
     
     #sign_up{
         background-image: url(Img/box-bg-lg.jpg);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         width: 66%;
     }
     
@@ -1066,8 +1068,8 @@ a{
     }
     
     #pink, #purple, #clients, #sign_up, #green{
-        padding-top: 4vh;
-        padding-bottom: 3vh;
+        padding-top: 4%;
+        padding-bottom: 3%;
         padding-left: 4%;
         padding-right: 4%;
     }
@@ -1133,18 +1135,18 @@ a{
         height:90vh;
         background: url(Img/full-image.jpg);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         background-position: left;
         display: flex;
         flex-direction: column;
         color: white;
-        padding-top: 45vh;
+        padding-top: 21%;
         padding-left: 20%;
     }
     
     #power_title{
         font-size: 250%;
-        width: 29vw;
+        width: 36%;
     }
     
     #power_text{
@@ -1153,7 +1155,7 @@ a{
         padding-bottom: 2vh;
         font-family: Arial, Helvetica, sans-serif;
         line-height: 150%;
-        width: 30.5vw;
+        width: 37%;
     }
     
     #power_link{
