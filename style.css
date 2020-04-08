@@ -5,14 +5,20 @@
 }
 
 /*---------------------------------RÈGLES GENERALES-------------------------------------------*/
+@font-face{
+    font-family: "Open Sans";
+    src: url("assets/fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
 
 body{
     display: flex;
     flex-direction: column;
+    font-family: "Open Sans" sans-serif;
 }
 
 h1, h2, h3{
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 .link_and_arrow{
