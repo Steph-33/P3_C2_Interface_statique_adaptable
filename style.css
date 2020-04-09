@@ -412,6 +412,7 @@ footer{
 .footer_links{
     display: flex;
     flex-direction: column;
+    padding-bottom: 20%;
 }
 
 a{
