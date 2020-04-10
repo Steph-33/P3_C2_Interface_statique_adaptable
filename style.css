@@ -17,15 +17,6 @@ body{
     font-family: "Open Sans", sans-serif;
 }
 
-.link_and_arrow{
-    display: flex;
-    flex-direction: row;
-}
-
-.arrow{
-    padding-left: 1vw;
-}
-
 /*---------------------------------SECTION MOBILE----------------------------------------*/
 
 /*---------------Mobile Section 1 #Header---------------------------*/
@@ -552,11 +543,6 @@ h3{
     padding-top: 1.2%;
 }
 
-.arrow{
-    padding-bottom: 5%;
-}
-
-
 /*---------------Tablette Section 4 #A loot at the details---------------------------*/
 #details{
     margin-right: 12%;
@@ -839,11 +825,6 @@ h3{
     
 .blocks_link{
     padding-top: 2.5%;
-}
-
-.arrow{
-    padding-top: 0.2%;
-    padding-bottom: 0.2%;
 }
 
 /*---------------Desktop Section 4 #A loot at the details---------------------------*/
